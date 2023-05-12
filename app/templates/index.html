@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
 	<!-- Judul Halaman -->
-	<title>Orbit Future Academy</title>
+	<title>Muzero 2</title>
 	
 	<meta charset="utf-8">
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- Icon -->
@@ -18,6 +17,13 @@
 	<!-- JavaScript -->
 	<script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
 	<script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
+	<style>
+		#img{
+			border-radius: 50%;
+			width: 100px;
+			height: 100px;
+		}
+	</style>
 </head>
 
 <body id="halamanku" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -28,7 +34,7 @@
 			
 			<!-- Logo -->
 			<div class="navbar-header">
-				<img src={{ url_for('static', filename='/images/orbit_logo.jpg') }} alt="Orbit Logo" 
+				<img src={{ url_for('static', filename='/images/muzero_logo.jpg') }} alt="Muzero Logo" 
 				width="50" height="50" align="left">
 				<a class="navbar-brand" href="#halamanku">&#160; Muzero 2</a>
 			</div>
@@ -124,8 +130,8 @@
 	<!-- Bagian Halaman (Anggota Kelompok) -->
 	<div id="anggotaKelompok" class="container-fluid text-center">
 		<br>
-		<h2>ANGGOTA KELOMPOK</h2>
-		<h4>Muzero 2</h4>
+		<img src="../static/images/muzero_logo.jpg" alt="muzero logo" id="img">
+		<h2>ANGGOTA KELOMPOK MUZERO 2</h2>
 		<br>
 		<div class="row slideanim">
 			<div class="col-sm-4">
@@ -169,7 +175,11 @@
 		<a href="#halamanku" title="To Top">
 			<span class="glyphicon glyphicon-chevron-up"></span>
 		</a>
-		<p>Orbit Future Academy - Muzero 2 (2023)<br> <a href="https://orbitfutureacademy.id/">orbitfutureacademy.id</a></p>
+		<p>Orbit Future Academy - Muzero 2
+		<br>
+		<p>2023</p> 
+		<br>
+		<a href="https://orbitfutureacademy.id/">orbitfutureacademy.id</a></p>
 	</footer>
 
 	<!-- JavaScript untuk Animasi Scroll dan Prediksi Model -->
